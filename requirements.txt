@@ -1,0 +1,12 @@
+langchain
+langchain-groq
+langchain-community
+chromadb
+# faiss-cpu
+tiktoken
+streamlit
+python-dotenv
+requests
+sentence-transformers # Key for HuggingFaceEmbeddings
+torch # Often a dependency
+# transformers # May also be needed

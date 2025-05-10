@@ -1,0 +1,11 @@
+Product Name: Smartwatch
+Version: 1.0
+Release Date: 2025-01-15
+Features:
+- Self-learning capability
+- Energy efficient design 
+- Integrates with all major cloud platforms
+Dimensions: 10cm x 5cm x 2cm
+Weight: 150g
+Material: Recycled Aluminum
+Power Supply: USB-C, 5V/2A
