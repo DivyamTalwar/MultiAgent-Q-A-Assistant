@@ -151,12 +151,8 @@ def load_vector_store_and_ingest_if_needed():
 st.set_page_config(page_title="RAG Multi-Agent Q&A (Groq & MiniLM)", layout="wide")
 
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-if not GROQ_API_KEY:
-    try:
-        GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
-    except (KeyError, AttributeError):
-        GROQ_API_KEY = None
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 
 if not GROQ_API_KEY:
     st.error("Groq API key not found. Please set it in Streamlit secrets (GROQ_API_KEY) or as GROQ_API_KEY_LOCAL in your .env for local testing.")
