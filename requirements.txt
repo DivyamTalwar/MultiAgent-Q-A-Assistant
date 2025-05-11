@@ -7,4 +7,13 @@ streamlit
 python-dotenv
 requests
 sentence-transformers
-torch 
+torch
+streamlit
+python-dotenv
+langchain-groq
+langchain
+langchain-community
+sentence-transformers
+chromadb
+pysqlite3-binary
+requests
